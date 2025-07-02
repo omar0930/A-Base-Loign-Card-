@@ -1,0 +1,121 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,600;1,300&display=swap');
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+  color: hsl(0, 36%, 70%);
+  background: linear-gradient(to right, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  min-height: calc(100vh - 6rem);
+  flex-direction: row;
+}
+
+.hero-img {
+  flex: 1;
+}
+
+.hero-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content {
+  flex: 1;
+  padding: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.logo {
+  text-align: left;
+  margin-bottom: 3rem;
+}
+
+.logo img {
+  width: 120px;
+}
+
+.content h1 {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: hsl(0, 6%, 24%);
+  margin-bottom: 1rem;
+}
+
+.content h1 span {
+  color: hsl(0, 36%, 70%);
+  font-weight: 300;
+  display: block;
+}
+
+.content p {
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+form {
+  position: relative;
+  max-width: 400px;
+}
+
+input[type="email"] {
+  width: 100%;
+  padding: 1rem 1.5rem;
+  border: 1px solid hsl(0, 36%, 70%);
+  border-radius: 25px;
+  outline: none;
+  font-size: 0.9rem;
+}
+
+button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 60px;
+  border: none;
+  border-radius: 25px;
+  background-color: hsl(0, 93%, 68%);
+  cursor: pointer;
+}
+
+button img {
+  width: 16px;
+}
+
+.error-msg {
+  display: none;
+  color: hsl(0, 93%, 68%);
+  font-size: 0.8rem;
+  padding-top: 0.5rem;
+}
+
+footer {
+  margin-top: 3rem;
+  text-align: center;
+  font-size: 11px;
+  padding: 1rem;
+  width: 100%;
+}
+
+footer a {
+  color: hsl(228, 45%, 44%);
+}
+

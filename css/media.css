@@ -1,0 +1,51 @@
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .hero-img {
+    order: -1;
+    width: 100%;
+    height: auto;
+  }
+
+  .hero-img img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .content {
+    padding: 2rem;
+    text-align: center;
+    align-items: center;
+  }
+
+  .logo {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .content h1 {
+    font-size: 2rem;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  input[type="email"] {
+    padding: 0.8rem 1rem;
+    font-size: 0.9rem;
+  }
+
+  button {
+    width: 50px;
+  }
+
+  .error-msg {
+    text-align: left;
+    padding-left: 1rem;
+  }
+}
